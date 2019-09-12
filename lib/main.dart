@@ -1,4 +1,5 @@
 import 'package:chatme/chat/chat.dart';
+import 'package:chatme/home/home.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(MyApp());
@@ -13,7 +14,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primarySwatch: Colors.grey,
       ),
-      home: ChatPage(),
+      home: HomePage(),
     );
   }
 }
